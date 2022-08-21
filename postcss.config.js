@@ -1,7 +1,6 @@
 module.exports = {
-  plugins: [
-    require('cssnano')({
-      preset: 'default',
-    }),
-  ],
+  plugins: {
+    tailwindcss: {},
+    ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {}),
+  },
 };
