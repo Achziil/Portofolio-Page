@@ -901,6 +901,10 @@ video {
   background-image: url('dist/img/herobanner.png');
 }
 
+.bg-\[url\(\'\.\/dist\/img\/herobanner\.png\'\)\] {
+  background-image: url('./dist/img/herobanner.png');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-to: rgb(0 0 0 / 0);
