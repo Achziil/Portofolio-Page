@@ -889,20 +889,24 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\/dist\/img\/herobanner\.png\'\)\] {
-  background-image: url('/dist/img/herobanner.png');
+.bg-\[url\(\'dist\/img\/herobanner\.png\'\)\] {
+  background-image: url('dist/img/herobanner.png');
 }
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'dist\/img\/herobanner\.png\'\)\] {
-  background-image: url('dist/img/herobanner.png');
+.bg-\[url\(\'\/dist\/img\/herobanner\.png\'\)\] {
+  background-image: url('/dist/img/herobanner.png');
 }
 
 .bg-\[url\(\'\.\/dist\/img\/herobanner\.png\'\)\] {
   background-image: url('./dist/img/herobanner.png');
+}
+
+.bg-\[url\(\'https\:\/\/achziil\.github\.io\/Portofolio-Page\/dist\/img\/herobanner\.png\'\)\] {
+  background-image: url('https://achziil.github.io/Portofolio-Page/dist/img/herobanner.png');
 }
 
 .from-transparent {
